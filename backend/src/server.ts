@@ -17,7 +17,10 @@ app.use(securityHeaders);
 // Configure CORS to allow requests from the frontend
 app.use(
   cors({
-    origin: ["http://localhost:3000", "http://localhost:3001"],
+    origin: [
+      "https://house-of-edtech-iota.vercel.app",
+      "http://localhost:3001",
+    ],
     credentials: true,
   })
 );
