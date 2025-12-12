@@ -18,7 +18,6 @@ A full-stack CRUD (Create, Read, Update, Delete) application built with TypeScri
 ## Tech Stack
 
 ### Backend
-
 - Node.js with TypeScript
 - Express.js
 - MongoDB with Mongoose
@@ -26,7 +25,6 @@ A full-stack CRUD (Create, Read, Update, Delete) application built with TypeScri
 - bcrypt for password hashing
 
 ### Frontend
-
 - Next.js 16
 - React 19
 - Tailwind CSS
@@ -60,7 +58,6 @@ A full-stack CRUD (Create, Read, Update, Delete) application built with TypeScri
 ### Environment Variables
 
 Create a `.env` file in the backend directory with:
-
 ```
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
@@ -70,13 +67,11 @@ PORT=5000
 ## Available Scripts
 
 ### Backend
-
 - `npm run dev` - Start development server with ts-node
 - `npm run build` - Compile TypeScript to JavaScript
 - `npm start` - Start production server
 
 ### Frontend
-
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm start` - Start production server
