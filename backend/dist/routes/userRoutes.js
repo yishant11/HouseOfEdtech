@@ -7,7 +7,7 @@ const express_1 = __importDefault(require("express"));
 const userController_1 = require("../controllers/userController");
 const auth_1 = require("../middleware/auth");
 const router = express_1.default.Router();
-router.route("/").get(auth_1.protect, auth_1.admin, userController_1.getUsers);
+router.route("/").get(auth_1.protect, userController_1.getUsers);
 router.route("/profile").get(auth_1.protect, userController_1.getProfile).put(auth_1.protect, userController_1.updateProfile);
 // Regular user update endpoint
 router.route("/:id").put(auth_1.protect, userController_1.updateUserController);

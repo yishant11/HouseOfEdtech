@@ -1,5 +1,5 @@
 // Base URL for our API
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://houseofedtech-onrw.onrender.com/api";
 
 // Generic fetch function
 const apiFetch = async (endpoint: string, options: RequestInit = {}) => {

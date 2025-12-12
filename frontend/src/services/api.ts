@@ -1,5 +1,5 @@
 // Base URL for our API
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://houseofedtech-onrw.onrender.com/api";
 
 // Get token from localStorage
 const getToken = () => {
